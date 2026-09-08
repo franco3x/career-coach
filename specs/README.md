@@ -33,6 +33,7 @@ no automation. A spec is "done" when a future session can execute it from the fi
 | # | File | Concern | Status |
 |---|---|---|---|
 | 01 | `01-job-assessment-procedure.md` | JD pasted → fit verdict → logged in `Career_Pivot_Action_Tracker.md` | **Active** (ratified 2026-09-08) |
+| 02 | `02-skill-ontology.md` | Schema, vocabularies, and update rules for `Skill Ontology.csv` | **Active** (ratified 2026-09-08) |
 
 ## Backlog (not written yet)
 
@@ -44,5 +45,4 @@ no automation. A spec is "done" when a future session can execute it from the fi
 - `doc-sync-source-of-truth` — canonical hierarchy across Skill Ontology, resume, LinkedIn,
   trackers; what a "sync pass" checks.
 - `standing-rules-registry` — pull the scattered standing rules / notes into one referenced list.
-- `skill-ontology-updates` — when a task/cert adds a row; the 3-tier format.
 - `session-start-checklist` — what Claude reads at the start of every session.
