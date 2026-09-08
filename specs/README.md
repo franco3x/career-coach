@@ -26,7 +26,7 @@ no automation. A spec is "done" when a future session can execute it from the fi
 - A spec change is a deliberate act — note the date and what changed at the bottom of the file.
 - Source of truth for Frank's current skills is `Skill Ontology.csv` + the Confirmed Strengths
   section of `Career_Pivot_Action_Tracker.md` + `LinkedIn_Profile_Update.md`. The resume PDFs/docx
-  are stale and are NOT authoritative until the resume-tailoring spec says otherwise.
+  are stale and are NOT authoritative — see `03-resume-tailoring.md` §3 for how they are used.
 
 ## Specs
 
@@ -34,10 +34,10 @@ no automation. A spec is "done" when a future session can execute it from the fi
 |---|---|---|---|
 | 01 | `01-job-assessment-procedure.md` | JD pasted → fit verdict → logged in `Career_Pivot_Action_Tracker.md` | **Active** (ratified 2026-09-08) |
 | 02 | `02-skill-ontology.md` | Schema, vocabularies, and update rules for `Skill Ontology.csv` | **Active** (ratified 2026-09-08) |
+| 03 | `03-resume-tailoring.md` | Logged assessment → apply/stretch/skip call → tailored resume draft + Verification Layer | **Active** (ratified 2026-09-08) |
 
 ## Backlog (not written yet)
 
-- `resume-tailoring` — when to apply, which base resume per track, tailoring rules, file naming, save location.
 - `tracker-updates` — exact rules for adding/updating rows in `Career_Activity_Log` and
   `Job_Applications_Tracker`, and keeping them consistent with the assessment log. Includes the
   `.xlsx` → CSV conversion (both trackers become canonical CSV; the Field Guide sheet becomes a
