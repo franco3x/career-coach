@@ -11,8 +11,11 @@ Claude does the work each session by following the small, explicit specs in this
 - every apply decision produces consistent tracker updates;
 - the supporting documents (resume, LinkedIn, Skill Ontology, trackers) stay in sync.
 
-Two parallel tracks are maintained — **BI** and **SWE** — each with its own fit rubric and its own
-base resume. Every posting is routed to exactly one track at assessment time.
+**SWE is the only active track**, as of 2026-09-26 — Frank decided to pursue SWE roles exclusively
+and stopped looking at new BI roles. Historical BI-track assessments (#1–#28 era) and the BI base
+resume stay in the log and `Resumes/` for reference; `01-job-assessment-procedure.md` §11 keeps the
+retired BI routing list and rubric for context. Every new posting is assessed as SWE, or ruled out of
+scope if it isn't a SWE-shaped role.
 
 ## Execution model
 

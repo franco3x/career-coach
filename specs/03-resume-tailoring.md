@@ -42,7 +42,7 @@ Optional:
 | Class | Files | Role |
 |---|---|---|
 | **Master** | `Resumes/Frank_Coleman_Master_Resume.docx` | Superset of every true bullet, in full wording. Never sent to an employer. Source for bullet text. |
-| **Base (per track)** | BI: `Resumes/Frank_Coleman_Resume_Business_Intelligence.docx` · SWE: `Resumes/Frank_Coleman_Resume_Software_Engineering.docx` | The starting point for a tailored draft. One per track. Changed only by a deliberate decision, noted in §9. |
+| **Base (per track)** | SWE (active): `Resumes/Frank_Coleman_Resume_Software_Engineering.docx` · BI (retired 2026-09-26, kept only because pre-existing tailored instances were built from it): `Resumes/Frank_Coleman_Resume_Business_Intelligence.docx` | The starting point for a tailored draft. Changed only by a deliberate decision, noted in §9. |
 | **Tailored instance** | `Resumes/Tailored/…` (see §6) | One posting's résumé. Produced by this spec. The Disney / Zillow / KPMG files currently in `Resumes/` are legacy tailored instances from before this spec. |
 
 ## 4. Apply decision  *(NEEDS FRANK'S RATIFICATION)*
@@ -100,9 +100,10 @@ Cross-check every skill line and bullet keyword against the matching `Skill Onto
 
 ### 5.4 Track → base
 
-Route by the **Track already recorded in the Spec 01 entry** (do not re-decide it). BI → BI base.
-SWE → SWE base. A posting Spec 01 assessed under one track but noted "with the other lens" still
-uses the recorded track's base; the other-lens note can inform one summary sentence.
+Route by the **Track already recorded in the Spec 01 entry** (do not re-decide it). As of
+2026-09-26, Spec 01 only produces SWE-track entries, so every new posting reaching this spec uses
+the SWE base. The BI base is retired — do not tailor a new posting from it, even if an old entry
+happens to still be marked BI.
 
 ### 5.5 Length and format
 

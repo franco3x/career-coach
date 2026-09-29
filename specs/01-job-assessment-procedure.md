@@ -29,10 +29,21 @@ If the JD text is missing the "About the job" section, ask for it before assessi
 
 ## 3. Track routing (do this first)
 
-Every posting is assessed under exactly one track. Decide by job title against the lists below;
-if the title isn't listed, decide by JD content.
+**As of 2026-09-26, Frank is pursuing SWE roles exclusively** and has abandoned looking at new BI
+roles. The retired BI routing list and per-track rubric are kept at §11 for reference — they still
+explain how Job Assessments #1–#28 were scored, but they no longer apply to new postings.
 
-### BI track — route here if the title is (or closely matches) one of:
+Decide by job title against the lists below; if the title isn't listed, decide by JD content.
+
+### SWE track — assess if the title is (or closely matches) one of:
+
+Software Engineer (I / II / III / Senior / Staff / Principal) · Software Developer / Sr Software
+Developer · Associate Software Engineer · Full Stack Engineer / Developer · Backend Engineer /
+Developer · Frontend Engineer / Developer · Application Developer · Platform Engineer · DevOps
+Engineer · Site Reliability Engineer · Python Developer / Java Developer · Game Engineer / Graphics
+Engineer
+
+### Out of scope — do not run a full assessment if the title is (or closely matches) one of:
 
 Business Intelligence Analyst / Sr BI Analyst / BI Analyst II · Business Intelligence Developer ·
 Business Intelligence Architect · Business Intelligence Engineer · Business Intelligence Manager /
@@ -41,13 +52,9 @@ Specialist / Sr Business Analytics Specialist · Data Analyst / Sr Data Analyst 
 Reporting Analyst / Reporting Developer · Analytics Consultant / BI Consultant · Power BI Developer
 · Tableau Developer · Product Analyst / Product Analytics Analyst
 
-### SWE track — route here if the title is (or closely matches) one of:
-
-Software Engineer (I / II / III / Senior / Staff / Principal) · Software Developer / Sr Software
-Developer · Associate Software Engineer · Full Stack Engineer / Developer · Backend Engineer /
-Developer · Frontend Engineer / Developer · Application Developer · Platform Engineer · DevOps
-Engineer · Site Reliability Engineer · Python Developer / Java Developer · Game Engineer / Graphics
-Engineer
+If Frank pastes one of these, tell him plainly it's a BI-shaped title and, per the SWE-only decision,
+ask whether he still wants a full assessment before proceeding (e.g. for calibration) rather than
+silently skipping it.
 
 ### Ambiguous titles — decide by JD content:
 
@@ -57,16 +64,18 @@ Solutions Engineer
 
 Content-clue rule for the ambiguous set:
 
-- Route to **BI** if the JD centers on dashboards/reports, semantic models, DAX / Power BI /
-  Tableau, self-service enablement, metric definitions, data storytelling, stakeholder liaison.
-- Route to **SWE** if the JD centers on production services/APIs, OOP depth / design patterns,
+- **Assess as SWE** if the JD centers on production services/APIs, OOP depth / design patterns,
   CI/CD pipelines, containerization / IaC, distributed systems, cloud-native architecture,
   software on-call.
-- If genuinely split, assess under the track whose **required** (not preferred) qualifications
-  Frank is closer to, and add one sentence in the Verdict rationale noting the other lens.
+- **Out of scope** if the JD centers on dashboards/reports, semantic models, DAX / Power BI /
+  Tableau, self-service enablement, metric definitions, data storytelling, stakeholder liaison —
+  flag it as BI-shaped per the rule above, even though the title itself was ambiguous.
+- If genuinely split, assess as SWE only if Frank is closer to the SWE **required** (not preferred)
+  qualifications, and add one sentence in the Verdict rationale noting the BI-shaped lens.
 
-Record the chosen track in the entry and in the snapshot table. (This is separate from the
-existing descriptive "Role Category" column — keep both.)
+Record "Track: SWE" in the entry and in the snapshot table, same as before — the field stays for
+consistency with the historical log; it just no longer varies. (This is separate from the existing
+descriptive "Role Category" column — keep both.)
 
 ## 4. Pre-filter checks & stamps (run before scoring)
 
@@ -145,18 +154,8 @@ discipline. Grade the posting's degree wording:
 
 ### 5.3 Verdict definitions
 
-The two tracks share the scale but calibrate differently, because Frank's baseline differs.
-
-**BI track**
-
-| Verdict | Condition |
-|---|---|
-| **Strong fit** | All / nearly all Required quals **Met**; Absent items only in "preferred" or narrow tools (Snowflake, Fabric, Databricks, GitLab); degree risk None or Low. Bonus: a named differentiator present (mentoring, audit/GRC, judicial domain, Lean Six Sigma). |
-| **Moderate fit** | Required quals mostly Met, but one **distinctive required** ask is a genuine domain or tenure gap (e.g. product-analytics domain, deep-learning frameworks); **or** degree risk Moderate. |
-| **Weak fit** | Multiple Required quals Absent, **or** a core tool/skill of the role is a blank slate, **or** degree risk High. |
-| **Not competitive yet** | Core BI bar itself not credibly Met **and** stacked multi-year tenure walls or a structural gate self-study can't touch **and** no differentiator that clears a screen. Applying is noise. |
-
-**SWE track** (expect few or no Strong; the real output is apply-as-stretch vs skip)
+*(expect few or no Strong; the real output is apply-as-stretch vs skip. The retired BI verdict
+table is archived at §11.)*
 
 | Verdict | Condition |
 |---|---|
@@ -245,6 +244,9 @@ Ratified by Frank 2026-09-08:
   parallel to the out-of-state stamp. A role can be "Strong fit · Low Compensation."
 - Snapshot "Track" column — **added and all 28 existing rows backfilled** (§10).
 
+**Amendment ratified by Frank 2026-09-26:** BI track retired from §3/§5.3 going forward (SWE-only
+decision); old BI text moved to §11 archive, not deleted. See the §10 note for that date.
+
 Spec 01 is **active.**
 
 ## 10. Backfill log
@@ -258,6 +260,33 @@ Spec 01 is **active.**
     (#21) → SWE; BI-adjacent data engineering (#6 DFS) → BI.
   - The individual Job Assessment Log entries (#1–#28) were **not** retrofitted with the new
     `**Track:**` / `**Flags:**` fields — those apply from assessment #29 onward.
+- **2026-09-26** — Frank decided to pursue SWE roles exclusively and stopped looking at new BI
+  roles. §3 and §5.3 were rewritten to drop the BI branch going forward; the retired BI routing list
+  and verdict table are archived at §11 rather than deleted, since they're still the rubric behind
+  the 15 BI-track entries already logged (#1, #3, #5, #6, #13, #14, #18, #19, #22–#28). No existing
+  log entries were changed.
+
+## 11. Archived — BI track rubric (retired 2026-09-26)
+
+Kept for reference only. Do not use for new assessments — see §3 and the 2026-09-26 note above.
+
+**BI track — the routing list that applied through assessment #28-era postings:**
+
+Business Intelligence Analyst / Sr BI Analyst / BI Analyst II · Business Intelligence Developer ·
+Business Intelligence Architect · Business Intelligence Engineer · Business Intelligence Manager /
+Lead · Business Analyst / Sr Business Analyst · Business Analysis Manager · Business Analytics
+Specialist / Sr Business Analytics Specialist · Data Analyst / Sr Data Analyst / Data Analyst Sr ·
+Reporting Analyst / Reporting Developer · Analytics Consultant / BI Consultant · Power BI Developer
+· Tableau Developer · Product Analyst / Product Analytics Analyst
+
+**BI track verdict definitions:**
+
+| Verdict | Condition |
+|---|---|
+| **Strong fit** | All / nearly all Required quals **Met**; Absent items only in "preferred" or narrow tools (Snowflake, Fabric, Databricks, GitLab); degree risk None or Low. Bonus: a named differentiator present (mentoring, audit/GRC, judicial domain, Lean Six Sigma). |
+| **Moderate fit** | Required quals mostly Met, but one **distinctive required** ask is a genuine domain or tenure gap (e.g. product-analytics domain, deep-learning frameworks); **or** degree risk Moderate. |
+| **Weak fit** | Multiple Required quals Absent, **or** a core tool/skill of the role is a blank slate, **or** degree risk High. |
+| **Not competitive yet** | Core BI bar itself not credibly Met **and** stacked multi-year tenure walls or a structural gate self-study can't touch **and** no differentiator that clears a screen. Applying is noise. |
 
 ---
 

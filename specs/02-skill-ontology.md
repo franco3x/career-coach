@@ -69,6 +69,12 @@ columns without updating this spec.
 `BI` · `SWE` · `Both` · `Foundational` (helps either track — Git, SQL, comms) · `Legacy-Domain`
 (finance / audit / government — a differentiator, not a core pivot skill).
 
+*(As of 2026-09-26, Frank pursues SWE roles exclusively — see `01-job-assessment-procedure.md` §3
+and `03-resume-tailoring.md` §5.4. `BI`-tagged rows are kept as-is; they still describe real skills
+and feed the historical BI-track log, but they no longer drive active résumé tailoring, which now
+only pulls from `SWE` / `Both` / `Foundational` rows. No re-tagging needed — this is a note on how
+the column is used, not a change to the vocabulary or existing rows.)*
+
 ## 5. Update procedure
 
 When Frank completes a course/cert/project, lands a new task, or a proficiency changes:
@@ -76,12 +82,25 @@ When Frank completes a course/cert/project, lands a new task, or a proficiency c
 1. Add one row (or update the existing row if it's the same competency maturing — bump
    Proficiency / Last Used / Evidence rather than duplicating).
 2. Fill all 11 columns. Use only §4 vocabulary for columns 3, 6, 7, 10, 11.
-3. Keep grain consistent: a multi-module cert path may have child rows, but name them so they
+3. **Verify the Proficiency rating before recording it** (added 2026-09-26 — don't take a bare
+   number at face value):
+   - Ask one concrete question tied to the *target* level's own §4.3 definition, not a generic
+     "how good are you." For `3 Proficient`: could you do this independently on real work, without
+     reference material? For `4 Advanced`: have you handled an edge case or unusual failure in it,
+     or could you guide someone else through it? For `2 Working` / `1 Awareness`, a lighter check
+     is enough — the risk of overclaiming is lower.
+   - Cross-check the answer against the **Evidence** column. If Evidence is thin relative to the
+     claimed level (e.g. `3 Proficient` backed only by "course cert," no real-work instance),
+     say so plainly and either downgrade the rating or ask Frank for the missing evidence before
+     recording it.
+   - Applies to new rows and to any time an existing row's Proficiency is bumped up (not to a
+     bump *down*, and not to Last Used / Evidence-only edits).
+4. Keep grain consistent: a multi-module cert path may have child rows, but name them so they
    read as children (`Alteryx Core: Data Prep`), and keep one parent row for the credential.
-4. If the row closes a gap in the `Recurring Gap Tracker`, note it in Evidence (`closes: CI/CD`).
-5. Do **not** claim skills not yet real: CI/CD (GitHub Actions), an ADR/design doc, and macro
+5. If the row closes a gap in the `Recurring Gap Tracker`, note it in Evidence (`closes: CI/CD`).
+6. Do **not** claim skills not yet real: CI/CD (GitHub Actions), an ADR/design doc, and macro
    logic refactoring are **not** done as of 2026-09-08 — do not add rows for them until they are.
-6. Cross-check new Confirmed Strengths / gaps back into `Career_Pivot_Action_Tracker.md` if the
+7. Cross-check new Confirmed Strengths / gaps back into `Career_Pivot_Action_Tracker.md` if the
    change is material (full doc-sync is a later spec).
 
 ## 6. Accuracy fixes applied in the 2026-09-08 re-encode
@@ -155,6 +174,14 @@ Still to fill in (no blocker; do opportunistically):
    Credly links, the GitHub repo URL + visibility, SAS/Alteryx certificate numbers, specific
    dashboard/report names, and course links for the Alteryx suite, SAS suite, Google Data
    Analytics, LSS/CPM, Percipio, and the Udemy skill assessments.
+
+## 7a. Amendment log
+
+- **2026-09-26** — Added §5 step 3 (Proficiency verification). Prompted by a Claude Desktop chat
+  giving Frank an incorrect answer about whether in-progress courses belong in the ontology (they
+  do — see §4.2/§4.4 and the CS50P row). While fixing that, Frank asked how to make sure the chat
+  can accurately determine his Proficiency ratings; the fix is a concrete probe question + an
+  Evidence cross-check at entry time, instead of accepting a bare self-rated number.
 
 ---
 
